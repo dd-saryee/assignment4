@@ -1,0 +1,123 @@
+body{
+    background-color:skyblue;
+    margin: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#body-1{
+    margin: 0px;
+}
+#header{
+    background-color: slategray;
+    padding-top: 15px;
+    padding-bottom: 0.5px;
+    font-weight: 100;
+    font-size: xx-large;
+    margin-top:-32px;
+    color: white;
+    border: 1px solid rgb(126, 124, 124);
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
+#header-1{
+    float: right;
+}
+#header-1 a{
+    color: white;
+}
+#header-2{
+    color: tomato;
+}
+#h3-i1{
+    color: gray;
+}
+a:hover{
+    background-color: rgb(221, 168, 149);
+    border-radius: 50%;
+}
+a:active{
+    padding-top: 10px;
+}
+
+#header li{
+    display: inline-block;
+}
+#header ul li a{
+    padding-right: 5px;
+    text-decoration: none;
+}
+#img-i1{
+    width: 99%;
+    height: 500px;
+}
+#footer{
+    text-align: center;
+    background-color: slategrey;
+    padding: 10px;
+    font-size: x-large;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(88, 86, 86);
+}
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(59, 58, 58);
+}
+#tab{
+    border: 2px solid black;
+    background-color: rgb(99, 96, 96);
+    margin-bottom: 0px;
+    padding: 2px;;
+}
+#tab th, td, tr{
+    padding: 10px;
+    width:800px;
+    height: 10px;
+}
+#p3{
+    background-color: rgb(104, 102, 101);
+    margin-top: 0px;
+}
+#form{
+
+    background-color: rgb(111, 107, 139);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    padding-right: 30px;
+    border-radius: 5px;
+    opacity: 0.95;
+}
+#name, #email, #website, #subject {
+    border-radius: 7px;
+    width: 100%;
+    height: 45px;
+}
+#form label{
+    font-weight: 500;
+    color: rgb(253, 114, 0);
+    font-size: x-large;
+    
+}
+#form input{
+    font-weight: 700;
+    color: rgba(231, 54, 0, 0.281);
+    font-size: large;
+    
+}
+#message {
+    border-radius: 7px;
+    width: 100%;
+    height: 70px;
+}
+#sub{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    background-color:rgba(0, 0, 0, 0.486);
+    color: white;
+}
